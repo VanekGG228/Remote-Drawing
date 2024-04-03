@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WORK\\KSIS\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A38B9958-0209-40F0-A815-6F7C7103EAAB}|Server.vcxproj|E:\\WORK\\KSIS\\Server\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A38B9958-0209-40F0-A815-6F7C7103EAAB}|Server.vcxproj|solutionrelative:Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 315,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server.cpp",
+              "DocumentMoniker": "E:\\WORK\\KSIS\\Server\\Server.cpp",
+              "RelativeDocumentMoniker": "Server.cpp",
+              "ToolTip": "E:\\WORK\\KSIS\\Server\\Server.cpp",
+              "RelativeToolTip": "Server.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-18T14:07:27.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 85,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
