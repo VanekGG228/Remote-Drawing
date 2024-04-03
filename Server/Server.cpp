@@ -19,13 +19,13 @@ int main() {
 
     iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
-        printf("Ошибка при инициализации Winsock: %d\n", iResult);
+        printf("Winsock error: %d\n", iResult);
         return 1;
     }
 
     SOCKET ListenSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (ListenSocket == INVALID_SOCKET) {
-        printf("Ошибка при создании сокета: %d\n", WSAGetLastError());
+        printf("error Socket(): %d\n", WSAGetLastError());
         WSACleanup();
         return 1;
     }
@@ -82,7 +82,7 @@ int main() {
             int result = select(0, &readSet, nullptr, nullptr, &timeout);
             if (result == SOCKET_ERROR) {
 
-                printf("Ошибка при вызове select(): %d\n", WSAGetLastError());
+                printf("Error select(): %d\n", WSAGetLastError());
                
             }
             else if (result > 0) {
@@ -92,7 +92,6 @@ int main() {
                     int x = 0;
                     for (int i = 0; i < point.size(); i++) {
                         if (point[i] == ' ') x++; 
-                        if(x>4) std::cout << "IT ISNT NORMAL";
                         std::cout << (point[i]) << std::endl;
                     }
 
@@ -120,7 +119,6 @@ int main() {
             }
             if (c) {
                 que.pop();
-                std::cout << "sended" << std::endl;
             }
         }
        
@@ -128,7 +126,6 @@ int main() {
         
     }
 
-    // Закрытие сокетов и очистка ресурсов
     for (int i = 0; i < clients.size(); i++) {
         closesocket(clients[i]);
     }
