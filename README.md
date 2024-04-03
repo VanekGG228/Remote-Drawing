@@ -1,2 +1,4 @@
 # Remote-Drawing
-#Win Api с TCP сокетами
+Win Api 
+Протокол: TCP 
+IP сервера менять в коде
